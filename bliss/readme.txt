@@ -1,0 +1,1 @@
+This project is created by using HTML5, CSS3 and JavaScript. it is a hotel preview website where you can see the hotel rooms and services what they providing, what the prices of their rooms have along with you can book your room from the webpage.
