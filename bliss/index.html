@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliss Hotel</title>
+</head>
+
+<body>
+  <div class="toggle">
+  <label for="theme" class="theme">
+    <span class="theme__toggle-wrap">
+      <input id="theme" class="theme__toggle" type="checkbox" role="switch" name="theme" value="dark">
+      <span class="theme__fill"></span>
+      <span class="theme__icon">
+        <span class="theme__icon-part"></span>
+        <span class="theme__icon-part"></span>
+        <span class="theme__icon-part"></span>
+        <span class="theme__icon-part"></span>
+        <span class="theme__icon-part"></span>
+        <span class="theme__icon-part"></span>
+        <span class="theme__icon-part"></span>
+        <span class="theme__icon-part"></span>
+        <span class="theme__icon-part"></span>
+      </span>
+    </span>
+  </label>
+  </div>
+    <div class="header">
+        <header>
+            <h1>Bliss Hotel</h1>
+            <marquee behavior="flow" direction="left">
+                <p>Welcome to Our Hotel website. hope you get your comfortable and budget friendly room</p>
+            </marquee>
+            <nav id="navbar">
+                <span>
+                    <ol><a href="#about">About</a></ol>
+                </span>
+                <span>
+                    <ol><a href="#Rooms">Rooms</a></ol>
+                </span>
+                <span>
+                    <ol><a href="#booking">Book your Room</a></ol>
+                </span>
+
+            </nav>
+        </header>
+    </div>
+    <div class="content">
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="Spa.jpg" style="width:100%">
+                <div class="text">Spa</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="entering view.jpg" style="width:100%">
+                <div class="text">Way to heaven</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="doublebed.jpg" style="width:100%">
+                <div class="text">Beds</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">
+                    4 / 4
+                </div>
+                <img src="Services.jpg" style="width: 100%;">
+                <div class="text">Services</div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        
+        <div id="about">
+            <h1><i>About</i></h1>
+            <p>Bliss hotel Welcomes you with a joyfull smile where you have free space to hangout, meditate and feel
+                free to sit in our cafeteria with a cup of coffee or what you like to have. We provide many Facilities
+                like:
+            <li>Spa</li>
+            <li>Swimming pool for each age group</li>
+            <li>Cafeteria</li>
+            <li>Playing Area</li>
+            <li>Bar</li>
+            <li>Restaurant</li>
+            <li>Gym</li>
+            <li>Parking</li>
+            We have rooms with beautiful mountain view from your window and Guess what they are budget friendly and
+            health friendly.
+            </p>
+        </div>
+        <div id="Rooms">
+        
+          <div class="plan">
+            <div class="inner">
+              <span class="pricing">
+                <span>
+                  1200/- <small>/ day</small>
+                </span>
+              </span>
+              <p class="title">Room-1</p>
+              <p class="info">This plan is for those who have a low budget.</p>
+              <ul class="features">
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+                    </svg>
+                  </span>
+                  <span><strong>24 x 7</strong> Services</span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+                    </svg>
+                  </span>
+                  <span><strong>wi-fi</strong> Access & <strong>Cafeteria</strong></span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+                    </svg>
+                  </span>
+                  <span>Swimming Pool</span>
+                </li>
+              </ul>
+              <div class="action">
+              <a class="button" href="#booking">
+                Book Room
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan">
+            <div class="inner">
+              <span class="pricing">
+                <span>
+                  5000/- <small>/ day</small>
+                </span>
+              </span>
+              <p class="title">Room-2</p>
+              <p class="info">This plan is for those who have Perfect budget.</p>
+              <ul class="features">
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+                    </svg>
+                  </span>
+                  <span><strong>24 x 7</strong> Services & <strong>Wi-fi</strong> Access</span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+                    </svg>
+                  </span>
+                  <span><strong>Cafeteria</strong> & <strong>Spa</strong></span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+                    </svg>
+                  </span>
+                  <span><strong>20+</strong> 
+         OTT channels</span>
+                </li>
+              </ul>
+              <div class="action">
+              <a class="button" href="#booking">
+                Book Room
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan">
+            <div class="inner">
+              <span class="pricing">
+                <span>
+                  10000/- <small>/ day</small>
+                </span>
+              </span>
+              <p class="title">Room-3</p>
+              <p class="info">This plan is for those who have Luxuries budget.</p>
+              <ul class="features">
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+                    </svg>
+                  </span>
+                  <span><strong>24 x 7 luxury</strong> Services,PS 5 & <strong>Wi-fi</strong> Access</span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+                    </svg>
+                  </span>
+                  <span><strong>Cafeteria, Spa</strong> & <strong>Massage Center</strong></span>
+                </li>
+                <li>
+                  <span class="icon">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0h24v24H0z" fill="none"></path>
+                      <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+                    </svg>
+                  </span>
+                  <span><strong>20+</strong> 
+         OTT channels, <strong>Gaming area</strong> & 
+         <strong>Opera</strong> music</span>
+                </li>
+              </ul>
+              <div class="action">
+              <a class="button" href="#booking">
+                Book Room
+              </a>
+              </div>
+            </div>
+          </div>
+
+         </div> 
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="booking">
+        <div class="form-wrapper">
+            <h1>Book your Room</h1>
+            <form id="booking" action="#" method="get">
+                <div class="inputGroup">
+                    <input type="text" required autocomplete="off" autocapitalize="on">
+                    <label for="name">Name</label>
+                </div>
+                <div class="input-container">
+                    <input placeholder="email" type="text" class="input" required>
+                    <span>@gmail.com</span>
+                </div>
+                <div class="inputGroup">
+                    <input type="number" required autocomplete="off" accept="1-10">
+                    <label for="phone">Phone no.</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="date" required autocomplete="off" >
+                    <label for="date">Date</label>
+                </div>
+                <button onclick="alert('your room details will be mailed on your E-mail.')"> 
+                    <div>
+                      <span>
+                        <p>Book room</p><p>:)</p>
+                      </span>
+                    </div>
+                    <div>
+                      <span>
+                        <p>Thanks</p><p>:D</p>
+                      </span>
+                    </div>
+                  </button>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

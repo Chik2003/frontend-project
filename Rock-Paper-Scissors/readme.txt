@@ -1,0 +1,1 @@
+this project is a game project, the game is rock paper and scissors. this project/game is programmed by using front-end web dev skills. we can play and enjoy it. it will show you results and computer can randomly pick any of the options from the three given so there is tough competition. you vs. computer.
